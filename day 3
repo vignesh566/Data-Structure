@@ -1,0 +1,128 @@
+program 1
+import java.io.*;
+
+import java.util.*;
+
+// Read only region start
+
+class UserMainCode
+
+public int isEven(int input1){
+
+// Read only region end
+
+// Write code here...
+
+if(input1%2==0) return 2;
+
+else return 1;
+ }
+
+}
+
+program2
+
+import java.util.*;
+
+// Read only region start
+
+class UserMainCode
+
+public int isOdd(int input1){
+
+if(input1%2!=0) return 2;
+
+else
+
+return 1;
+
+}
+
+}
+
+program 3
+import java.util.*;
+
+// Read only region start
+
+class UserMainCode
+
+public int lastDigitOf(int input1){
+
+// Read only region end
+
+if(input1<0)
+
+input1-(-1)*input1;
+
+return input1%10;
+
+program 4
+import java.io.*;
+
+import java.util.*;
+
+// Read only region start
+
+class UserMainCode
+
+public int secondLastDigitOf(int input1){
+
+if(input1<0)
+
+input1=(-1)*input1;
+
+int c=0;
+
+int l-Integer.toString(input1).length();
+
+int r=0;
+
+if(l==1)
+
+return -1;
+
+else
+
+while(input1>0)
+
+r=input1%10;
+
+C++;
+
+input1/=10;
+
+if(c==2)
+
+break;
+
+}
+
+return r;
+
+}
+
+}
+
+}
+
+program 5
+import java.io.*;
+
+import java.util.*;
+
+class UserMainCode
+
+public int addLastDigits(int input1,int input2}{
+
+if(input1<0)
+
+input1=(-1)*input1;
+
+if(input2<0)
+
+input2-(-1)*input2;
+
+return (input1%10)+(input2%10);
+
+}
